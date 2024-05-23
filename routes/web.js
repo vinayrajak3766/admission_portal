@@ -4,7 +4,7 @@ const route = express.Router()
 const checkAuth = require('../middleware/auth')  // check authentication
 const CourseModel = require('../models/course')
 const CourseController = require('../controllers/CourseController')
-const AdminController = require('../controllers/adminController')
+const AdminController = require('../controllers/AdminController')
 const isLogin = require('../middleware/islogin')  //if login then open home page
 const adminroll = require('../middleware/adminroll') // if user logged in the admin page not open
 
